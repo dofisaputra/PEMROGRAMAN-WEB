@@ -1,5 +1,5 @@
 a {
-  color: #848d96;
+  color: #FEC7B4;
   text-decoration: none;
 }
 
@@ -7,7 +7,7 @@ a {
   display: block;
   overflow: scroll;
   max-height: 100vh;
-  background-color: #0b1c2f;
+  background-color: #6c0012;
   font-family: Inter, sans-serif;
 }
 
@@ -37,11 +37,12 @@ a {
 
 .name {
   margin-bottom: 40px;
-  color: #47bec7;
-  font-size: 16px;
+  color: #FFF3C7;
+  font-size: 20px;
   line-height: 100%;
   letter-spacing: 1px;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .bold-text {
@@ -50,37 +51,40 @@ a {
 
 .tagline {
   margin-bottom: 40px;
-  color: #ddd;
-  font-size: 58px;
+  color: #FFF3C7;
+  font-size: 78px;
   line-height: 100%;
+  font-family: "Bebas Neue", sans-serif;
 }
 
 .bio {
   margin-bottom: 40px;
-  font-family: Lora, sans-serif;
-  color: #848d96;
+  font-family: 'Merriweather', sans-serif;
+  color: #FFF3C7;
   font-size: 21px;
   line-height: 140%;
 }
 
 .text-block-2 {
   margin-bottom: 20px;
-  color: #485462;
-  font-size: 12px;
+  color: #FFF3C7;
+  font-size: 14px;
   line-height: 12px;
   letter-spacing: 2px;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .list {
-  font-family: Lora, sans-serif;
-  color: #848d96;
+  font-family: "Bebas Neue", sans-serif;
+  color: #FFF3C7;
   font-size: 16px;
   line-height: 160%;
 }
 
 .credit {
-  color: #485462;
+  margin-top: 100px;
+  color: #FFF3C7;
   font-size: 13px;
 }
 
@@ -136,7 +140,7 @@ a {
 }
 
 .credit-links {
-  color: #485462;
+  color: #FFF3C7;
 }
 
 .image {
@@ -153,7 +157,7 @@ a {
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
   flex: 0 auto;
-  background-image: url('../images/split.jpg');
+  background-image: url('../../images/split.jpg');
   background-position: 50% 50%;
   background-size: cover;
   -o-object-fit: cover;
@@ -238,4 +242,3 @@ a {
     max-height: 30vh;
   }
 }
-
